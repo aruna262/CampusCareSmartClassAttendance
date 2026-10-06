@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "499908100779",
+    "project_id": "campuscare-smart-attendance",
+    "storage_bucket": "campuscare-smart-attendance.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499908100779:android:749dbc971607260ee3edee",
+        "android_client_info": {
+          "package_name": "com.campuscare_smartclassattendance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgGF8Dp04ZtKXDlQbwDxsVnU4MS2j_jX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

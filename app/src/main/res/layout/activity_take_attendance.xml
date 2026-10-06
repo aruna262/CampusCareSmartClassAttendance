@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Title -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Take Attendance"
+        android:textSize="26sp"
+        android:textStyle="bold"
+
+        android:layout_marginBottom="20dp" />
+
+
+    <!-- Subject -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Select Subject"
+        android:textSize="16sp"
+
+        android:layout_marginBottom="5dp" />
+
+
+    <Spinner
+        android:id="@+id/spinnerSubject"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="15dp" />
+
+
+    <!-- Date -->
+
+    <TextView
+        android:id="@+id/txtDate"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Date"
+        android:textSize="16sp"
+
+        android:padding="12dp"
+
+        android:background="#EEEEEE"
+
+        android:layout_marginBottom="20dp" />
+
+
+    <!-- Student List Title -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Student List"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        android:layout_marginBottom="10dp" />
+
+
+    <!-- Student Checkboxes -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/studentContainer"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+
+    <!-- Save Button -->
+
+    <Button
+        android:id="@+id/btnSaveAttendance"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Save Attendance"
+
+        android:textSize="16sp"
+
+        android:layout_marginTop="15dp" />
+
+</LinearLayout>

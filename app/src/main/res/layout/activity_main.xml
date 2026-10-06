@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:gravity="center"
+
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="CampusCare"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Smart Class Attendance"
+        android:textSize="18sp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="35dp" />
+
+    <EditText
+        android:id="@+id/edtRegisterNumber"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Enter Register Number"
+
+        android:inputType="number"
+
+        android:padding="12dp"
+
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnStudent"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Student Login" />
+
+    <Button
+        android:id="@+id/btnStaff"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Staff Login"
+
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
